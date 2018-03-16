@@ -1,0 +1,8 @@
+# vim files
+*.swp
+
+# project files
+/testModels/
+/data
+*_doc/
+myLib/webgl-utils.js

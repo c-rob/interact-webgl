@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0'/>
+    <title>Model Viewer</title>
+    
+    <script src="myLib/webgl-utils.js"></script>
+    <script src="myLib/webgl-init.js"></script>
+    <script src="myLib/matr4Lib.js"></script>
+    <script src="myLib/objLib.js"></script>
+    <script src="ModelViewer.js"></script>    
+  </head>
+  
+  <body onload="main()" style="overflow: hidden; position: fixed; margin-top: 0px; margin-left: 0px;">
+    <canvas id="canv3D" style="position:absolute; TOP:0px; LEFT:0px; z-index:0">
+      Your browser do not support HTML5 canvas.
+    </canvas>
+    <canvas id="canv2D" style="position:absolute; TOP:0px; LEFT:0px; z-index:1">
+      Your browser do not support HTML5 canvas.
+    </canvas>
+  </body>
+</html>
